@@ -1,2 +1,11 @@
 # Algorithm-Self-Study
-Using Python 1Day 1Problem
+## Using Python 1Day 1Problem 이지만 일주일에 5문제 목표
+
+## How??
++ 매일 아침 집나오기 전 문제 읽고 도보시간에 생각
++ 코드 작성 아침 10시 ~11시 : __1시간 이상 투자하지말건__
++ 못풀면 그날밤 풀기
+
+## What?
++ 여름 되기전까지는 백준위주 , 프로그래머스XXX
++ 난이도 : 실버1~ 골드 3 
