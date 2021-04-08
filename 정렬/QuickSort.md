@@ -2,7 +2,7 @@
 ## 코드
 ## QuickSort Code
 ```python
-def QuickSort(ls, l,r):
+def QuickSort(, l,r):
     if n == 1:
         return
     pivot = ChoosePivot(A,n)
