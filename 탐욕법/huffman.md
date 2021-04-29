@@ -10,6 +10,7 @@ prefix(접두어)는 어떤 단어(어근)의 앞에 붙어 뜻을 첨가하여 
 인코딩할떄 반드시 prefix code를 사용해야 하는 이유는 디코딩 하는 과정에서 Ambiguity해지기 때문이다.  
 
 >ex: Suppose U = {A,B,C,D} is encoded using variable-length code {0,01,10,1} what is 001 an encoding of?   
+
 AB,AAD 등으로 디코딩이 가능하므로 Ambiguity하다고 한다.   
 이 문제는 binary tree를 통해 표현하면 간단해진다. 
 각 문자들이 tree의 leafnode들이라면, 해당 트리는 반드시 prefix-freecode를 만족하게 된다.    
