@@ -25,3 +25,12 @@ for i in range(N):
 ### Resource
 Time Complexitiy: O(WN) W는 문자열의 길이   
 Space Complexity: O(R+ N)
+
+### 단점
+1. O(n) 추가 공간
+2. O(DR) 추가공간 => count 저장배열
+3. 무분별한 메모리접근 => 캐시 비효율
+  
+따라서 Radix sort의 장점과 Quick sort의 장점을 결합한 알고리즘이 있는데 그게 바로 3way radix quick sort이다.
+# 3-way radix quick sort
+https://www.geeksforgeeks.org/3-way-radix-quicksort-in-java/
