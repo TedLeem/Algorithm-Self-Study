@@ -1,8 +1,8 @@
 # HuffMan Coding
 ## Problem
-데이터를 전송하기 위해 데이터(문자열-> 2진 인코딩)를 압축한다고 하자.   
-어떻게 하면 정보의 손실 없이 가장 적은 비트의 길이로 데이터를 압축할 것인가?   
-이 문제의 가장 중요한 keyPoint는 다음 두가지이다.
+데이터를 전송하기 위해 데이터(문자열-> 2진 인코딩)를 압축한다고 하자.  
+어떻게 하면 정보의 손실 없이 가장 적은 비트의 길이로 데이터를 압축할 것인가? 
+이게 바로 Optimal Binary Code Problem으로 가장 중요한 keyPoint는 다음 두가지이다.
 
 ### 1. 각 문자의 인코딩된 비트는 prefix-free code이어야 한다.
 prefix(접두어)는 어떤 단어(어근)의 앞에 붙어 뜻을 첨가하여 하나의 다른 단어를 이루는 말을 이룬다. 
@@ -59,3 +59,6 @@ struct MinHeapNode* buildHuffmanTree(char data[], int freq[], int size){
 
 ### 코드 읽기
 전위순회(preorder traversal) 방법을 이용하여 트리를 읽어내려가면 해당 문자에 대한 인코딩된 binarycode를 확인할 수 있다.   
+
+## 시간복잡도
+처음 최소힙을 만드는 시간복잡도 O(NlogN)이다. 
