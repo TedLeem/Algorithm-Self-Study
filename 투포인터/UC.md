@@ -19,6 +19,7 @@
 | →                                         | 4. 고객은 추출한 화장품명을 보고 정확하면 '다음' 버튼을 클릭한다.|
 | ←                                         | 5. System은 화장품명을 통해 DB에서 해당 화장품 정보를 가져와서 사용자에게 보여준다. |
 | →                                         | 6. 고객은 화장품 정보가 정확하면 '최종 등록하기' 버튼을 누른다.|
+|Flow of Events for Extensions (Alternate Scenarios): ||
 |3-1-3-a. System이 사진을 인식하지 못할 경우         | |
 | ←                                         | 1.a. System은 사용자에게 재촬영 알림 창을 보여준다.|
 |                                          | 1.b. System은 카메라 앱을 실행한다.|
@@ -32,5 +33,5 @@
 (db에 없거나, 시스템 오류)         | |
 | ←                                         | 1.a. System은 '해당 화장품에 대한 정보 없음,화장품 명 확인~' 팝업창을 보여준다.|
 |                                          |  1.b. System은 사용자를 (3-1-4) 페이지로 이동시킨다.|
-|Flow of Events for Extensions (Alternate Scenarios): ||
+|Flow of Events for Cases (Cases Scenarios): ||
 |3-2. 고객이 '바코드 찍기' 방법을 선택할 경우         |//이하 생략|
